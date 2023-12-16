@@ -110,3 +110,5 @@
 ### 결정
 - REST
     - 빠름
+    - ref
+        - 구조: https://github.com/anandundavia/express-api-structure/tree/master
