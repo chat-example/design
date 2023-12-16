@@ -112,3 +112,43 @@
     - 빠름
     - ref
         - 구조: https://github.com/anandundavia/express-api-structure/tree/master
+### 스펙
+- server
+    - list
+        - relation 없이 조회
+    - create
+        - post
+    - update
+        - put
+    - delete
+        - delete
+    - userList
+        - 서버에 조인한 유저 리스트만 적용
+    - join
+        - user받아서 serverJoinedUser 생성
+    - leave
+        - userId 받아서 serverJoinedUser 삭제
+- user
+    - signin
+        - post
+    - signup
+        - post
+    - signout
+        - post
+    - withdrawal
+        - post
+    - update
+        - put
+- channelgroup
+    - list
+        - channel도 함께 조회
+    - create
+    - update
+    - delete
+- channel
+    - list
+    - join
+    - leave
+    - create
+    - delete
+    - archive
