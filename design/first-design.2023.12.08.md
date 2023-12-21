@@ -156,3 +156,10 @@
 ## 아쉬운 점
 ### 에러객체를 정의하지 않은 것
 - 프론트에서 에러메세지 보여주기 불편
+### 프론트에서 호출하기 쉬운 형태로 출력짜기
+- 응답이 때에 따라 다르면 파싱하기 까다로움 : user 등
+- fetch 실패 시에도 에러메세지를 보여주기 위해 response를 json으로 파싱해야 함
+
+## 배운 점
+### credentials
+- credential을 담고 싶으면 header에 Access-Control-Allow-Credentials를 true로 설정해야 함
