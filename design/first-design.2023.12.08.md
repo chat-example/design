@@ -163,3 +163,17 @@
 ## 배운 점
 ### credentials
 - credential을 담고 싶으면 header에 Access-Control-Allow-Credentials를 true로 설정해야 함
+
+## 비상!
+### ws로 connect시 redis pub/sub channel에 연결을 시켜줘야 할텐데 어떻게 하면 좋을지 모르겠음.
+1. WS로 CONNECT
+1. 이때 websocket publisher와 subscriber를 만들어줌 <- 채널에 대한 정보가 필요
+    1. socket.handshake.query.userId; <- 로 가능
+
+## 미비사항
+1. 로그인이 분리가 안됨 <- 브라우저 한개로 해서 그런 것 같기도 함. // 세션으로 하면 같은 브라우저도 함께 사용 가능
+    1. 다른 브라우저에서 쿠키가 안쌓임. 슬픔
+1. 이름이 안보임
+1. 채팅방 접근 권한이 주인만 있음
+1. websocket 연결이 자동으로 됨
+1. 브라우저 연결이 잘 안됨.
