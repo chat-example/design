@@ -10,7 +10,7 @@
     - email
     - password
 - 로그인 방식
-    - 쿠키/세션
+    - JWT / authentication
 
 ### 서버
 1. 생성 기능
